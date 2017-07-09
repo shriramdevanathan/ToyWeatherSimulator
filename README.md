@@ -1,4 +1,5 @@
 Project Description:
+
 Approach:
 1. I have collected weather data for 10 different Australian cities(inside the resources folder) for the year 2016-2017.
 
@@ -24,21 +25,14 @@ Approach:
 Further Scope:
 1. I could have considered location as one of the parameters to determine/forecast temperature. But my code is very configurable, so it can be done quite easily.
 2. Could have considered 9am and 3 pm values from data obtained from BOM website, and took an average rather than just taking 9am values.
-
 3. Could have found a better way to fit humidity and pressure.
-
 4. Could have considered altitude above sea level as a parameter and seen how that works.
- 
-
 Instructions to run:
 1. This is a maven project, and hence all dependencies are maintained by maven. I have also used JDK1.8 completely. So do a 'mvn clean install' from root folder.
-
 2. To compile the project, run 'mvn compile' from the root folder.
-
 3. To run the project from command line, type 'mvn exec:java' from the root folder
-
 Extra Instructions if needbe:
 4. To run the project from eclipse, right click on project->Run as->Maven Test to run the test cases.
 
 
- 
+
