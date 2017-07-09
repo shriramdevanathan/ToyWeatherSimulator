@@ -1,15 +1,23 @@
 package com.commbank.weathersim.constants;
+
+import java.net.URI;
+import java.net.URISyntaxException;
+
 /**
  * 
  * @author Shriram
  *
  */
 public class AppConstants {
-	public static final String BOM_URL = "http://www.bom.gov.au/climate/dwo/";
-	public static final String RESOURCE_FOLDER = "src/main/resources/";
-	public static final String RESOURCE_FOLDER_DATA = "src/main/resources/Data/";
-	public static final String RESOURCE_FOLDER_LOCATION_DATA = "src/main/resources/location/location.txt";
-	public static final String RESOURCE_FOLDER_LOCATION_ALGO = "src/main/resources/algorithm/algo-choice.txt";
+	static URI getURI(String name) throws URISyntaxException{
+		return AppConstants.class.getResource(name).toURI();
+	}
+	private static final String path= "src/main/resources/";
+	public static final String BOM_URL =  "http://www.bom.gov.au/climate/dwo/";
+	public static final String RESOURCE_FOLDER = path + "";
+	public static final String RESOURCE_FOLDER_DATA = path + "Data/";
+	public static final String RESOURCE_FOLDER_LOCATION_DATA =path + "location/location.txt";
+	public static final String RESOURCE_FOLDER_LOCATION_ALGO = path+"algorithm/algo-choice.txt";
 	
 
 	public static String USER_AGENT = "Mozilla/5.0";

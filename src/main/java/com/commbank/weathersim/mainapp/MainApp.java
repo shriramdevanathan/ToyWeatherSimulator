@@ -34,6 +34,10 @@ public class MainApp {
 		    	 */
 		    	RegressionParameterService regServiceImpl = new RegressionParameterServiceImpl();
 		    	regServiceImpl.estimateRegressionParameters(masterWeather);
+		    	/**
+		    	 * Now that masterWeather has been populated with the data, and the regression parameters,
+		    	 * we can start the simulation
+		    	 */
 		    	ToySim toySimImpl = new ToySimImpl();
 		    	toySimImpl.simulateForGame(masterWeather);
 	    	}
