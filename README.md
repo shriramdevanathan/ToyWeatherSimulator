@@ -15,7 +15,8 @@ Approach:(What I HAVE done in about 7 to 8 hours)
 
 7. If not, I am defaulting the year to 2016, finding out the average and standard deviation of the pressure and humidity values in the same month that needs to be forecasted, and then fitting a random value between average and average + standard deviation
 
-	for example :- if pressure value mean in 2016-05 is 1000 and standard deviation is 20, the I am generating a random number between 1000 and 1020. Similarly, humidity.
+	for example :- to fit pressure value in 2017-05, if pressure value mean in 2016-05 is 1000 and standard deviation is 20, the I am generating a random number between 1000 and 1020 to fit to pressure. 
+	Similarly, humidity.
 
 8. If in the worst case there are no values even in the year 2016, then I am just hardcoding random values.
 
