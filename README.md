@@ -29,6 +29,8 @@ Approach:(What I HAVE done in about 7 to 8 hours)
 
 13. The flow starts from MainApp.java.
 
+14. I also wrote a simple Statistics helper to help me with Variance and SD calculations.
+
 
 Further Scope(What I WOULD HAVE loved to do):
 1. I could have considered location as one of the parameters to determine/forecast temperature. But my code is very configurable, so it can be done quite easily.
