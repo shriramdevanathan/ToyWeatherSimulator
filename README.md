@@ -26,7 +26,7 @@ Approach:(What I HAVE done in about 7 to 8 hours)
 
 11. I am forecasting for four days from the current date(including the current day). This is configurable in the AppConstants.
 
-12. All basic test cases are documented.
+12. All basic test cases are written in src/test/java.
 
 13. The flow starts from MainApp.java.
 
@@ -36,12 +36,14 @@ Approach:(What I HAVE done in about 7 to 8 hours)
 Further Scope(What I WOULD HAVE loved to do):
 1. I could have considered location as one of the parameters to determine/forecast temperature. But my code is very configurable, so it can be done quite easily.
 2. Could have considered 9am and 3 pm values from data obtained from BOM website, and took an average rather than just taking 9am values.
-3. Could have found a better way to fit humidity and pressure.
+3. Could have found a better way to fit humidity and pressure although this works well.
 4. Could have considered altitude above sea level as a parameter and seen how that works.
-
+5. Could have written more test cases.
 
 Instructions to run:
-	Software needed: Java 1.8, maven 3.5
+
+Softwares needed: Java 1.8, maven 3.5
+
 1. This is a maven project, and hence all dependencies are maintained by maven. I have also used JDK1.8 completely. So do a 'mvn clean install' from root folder.
 2. To compile the project, run 'mvn compile' from the root folder.
 3. To run the project from command line, type 'mvn exec:java' from the root folder
