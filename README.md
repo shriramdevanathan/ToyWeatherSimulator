@@ -5,7 +5,7 @@ Approach:(What I HAVE done in about 7 to 8 hours)
 
 2. Using this as a reference, I have converted it to a model accepted by JAMA library(http://introcs.cs.princeton.edu/java/97data/MultipleLinearRegression.java.html).
 
-3. Additionally, I have also implemented the OLSMultipleRegression offered by Apache commons math3 library.
+3. Additionally, I have also implemented the OLSMultipleRegression offered by Apache commons math3 library as I read that it gives better results.(It's about having fun isn't it :). Thought I'll play around with this as well)
 
 4. We can play around with the algorithm choice by changing the algo-choice.txt. If we key in nothing, JAMA will be implemented from the AlgoFactory. If we key in Jama, JAMA will be implemented. And if we key in apache, then the commons library implementation will be implemented.
 
@@ -31,6 +31,8 @@ Approach:(What I HAVE done in about 7 to 8 hours)
 13. The flow starts from MainApp.java.
 
 14. I also wrote a simple Statistics helper to help me with Variance and SD calculations.
+
+15. Personally, I thought Apache Commons Math's implementation of multi linear regression is giving better results than JAMA library.(just compared it with actual data from forecast websites and commons seemed to be closer).
 
 
 Further Scope(What I WOULD HAVE loved to do):
