@@ -30,7 +30,7 @@ Approach:(What I HAVE done in about 7 to 8 hours)
 13. The flow starts from MainApp.java.
 
 
-Further Scope(What I would have loved to do):
+Further Scope(What I WOULD HAVE loved to do):
 1. I could have considered location as one of the parameters to determine/forecast temperature. But my code is very configurable, so it can be done quite easily.
 2. Could have considered 9am and 3 pm values from data obtained from BOM website, and took an average rather than just taking 9am values.
 3. Could have found a better way to fit humidity and pressure.
