@@ -15,8 +15,8 @@ Approach:(What I HAVE done in about 7 to 8 hours)
 
 7. If not, I am defaulting the year to 2016, finding out the average and standard deviation of the pressure and humidity values in the same month that needs to be forecasted, and then fitting a random value between average and average + standard deviation
 
-	for example :- to fit pressure value in 2017-05, if pressure value mean in 2016-05 is 1000 and standard deviation is 20, the I am generating a random number between 1000 and 1020 to fit to pressure. 
-	Similarly, humidity.
+	for example :- to fit pressure value in 2018-05, if pressure value mean in 2016-05 is 1000 and standard deviation is 20, the I am generating a random number between 1000 and 1020 to fit to pressure.
+	Similarly, for humidity as well.
 
 8. If in the worst case there are no values even in the year 2016, then I am just hardcoding random values.
 
@@ -44,16 +44,26 @@ Further Scope(What I WOULD HAVE loved to do):
 
 Instructions to run:
 
-Softwares needed: Java 1.8, maven 3.5
+Softwares needed: Java 1.8+, maven 3.5
 
-1. This is a maven project, and hence all dependencies are maintained by maven. I have also used JDK1.8 completely. So do a 'mvn clean install' from root folder.
-2. To compile the project, run 'mvn compile' from the root folder.
+**This is a maven project, and hence all dependencies are maintained by maven. I have also used JDK1.8 completely.
+
+1. Do a 'mvn clean install' from root folder.
+2. To compile the project, run 'mvn compile' from the root folder(/path/to/ToyWeatherSimuilator-master).
 3. To run the project from command line, type 'mvn exec:java' from the root folder
+4. To run test cases from command line, type 'mvn test' from the root folder
+
 
 Extra Instructions if needbe:
-4. To run the project from eclipse, right click on project->Run as->Maven Test to run the test cases.
+5. To run the project from eclipse, right click on project->Run as->Maven Test to run the test cases.
 
-Sample output will look like this:-(4 days)
+
+**Assumption is user already has java 1.8, and maven installed in the system(I am working on providing an executable jar with all dependencies contained).
+
+
+
+
+Sample output will look like this:-(4 days from now, including the current day)
 
 Darwin|-34.92,138.62,48|2017-07-10|RAIN|26.6|1014.6|77.0
 
